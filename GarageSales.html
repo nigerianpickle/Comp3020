@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage Sales</title>
+
+    <!-- font awesone cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section starts-->
+    <header>
+        <input type="checkbos" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">Sale<span>.</span></a>
+
+        <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="ExplorePage.html">Explore</a>
+        <a href="#products">Orders</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fa-solid fa-location-dot"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+    </header>
+
+    <!-- Header section ends-->
+    <!-- Main Section starts -->
+
+    <div id="profile-name-display" style="font-size: 40px; padding-top: 8%; padding-left: 8%;">></div>
+
+   
+    <script>
+        // Retrieve the profile name and display it
+        const profileName = sessionStorage.getItem('profileName');
+        if (profileName) {
+            document.getElementById('profile-name-display').textContent = `${profileName}'s Garage Sale`;
+        } else {
+            document.getElementById('profile-name-display').textContent = "No profile selected.";
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- <div class="gallery">
+    <a href="">
+        <img src="./Images/user.jpg" alt="user" width="200">
+    </a>
+    <div class="description">User1</div>
+</div>
+
+<div class="gallery">
+    <a href="">
+        <img src="./Images/user.jpg" alt="user" width="200">
+    </a>
+    <div class="description">User1</div>
+</div>
+
+<div class="gallery">
+    <a href="">
+        <img src="./Images/user.jpg" alt="user" width="200">
+    </a>
+    <div class="description">User1</div>
+</div> -->

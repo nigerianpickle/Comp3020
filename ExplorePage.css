@@ -106,6 +106,15 @@ header .fa-bars{
 }
 
 
+.heading{
+    /* position: fixed; */
+    background: #000000;
+    width: 100%;
+    /* padding: 2rem 9%; */
+    /* align-items: center; */
+    z-index: 10000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
 
 /* media queries */
 @media (max-width:991px) {
@@ -120,56 +129,6 @@ header .fa-bars{
 }
 
 
-/* @media (max-width:768px) {
-    html .fa-bars{
-        display: block;
-    }
-
-    header .navbar{
-        position:absolute;
-        top: 100%; left: 0; right: 0;
-        background:#eee;
-        border-top: .1rem solid rgba(0,0,0,.1);
-    }
-
-
-    header .navbar a{
-        margin:1.5rem;
-        padding: 1.5rem;
-        background: #fff;
-        border: .1rem soid rgba(0,0,0,.1);
-        display: block;
-    }
-    
-} */
-
-
-.home{
-    padding-top: 8%;
-    display: flex;
-    /* align-items: center; */
-    min-height: 350px;
-    background-position: center;
-    padding-bottom: 0;
-}
-
-
-.home .content{
-    max-width: 50rem;
-}
-
-.home .content h3{
-    font-size:6rem ;
-    color: #333;
-    /* padding-bottom: 5%; */
-}
-
-.home .content span{
-    font-size:1.5rem ;
-    color: #333333;
-    /* padding: 1rem 0; */
-    line-height: 1.5;
-}
 
 
 /* 
